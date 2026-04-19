@@ -280,7 +280,7 @@ fig.text(0.5, 0.018,
          "|  CS ELEC 01 — Computational Science",
          ha="center", fontsize=8, color=C_MUTED, fontfamily="monospace")
 
-out = "/mnt/user-data/outputs/case1_population.png"
+out = "case1_population.png"
 plt.savefig(out, dpi=150, bbox_inches="tight", facecolor=BG)
 print(f"✅  Visualization saved → {out}")
 plt.show()
